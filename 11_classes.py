@@ -1,4 +1,3 @@
-# Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=29327
 
 ### Classes ###
 
@@ -26,12 +25,12 @@ class Person:
         print(f"{self.full_name} está caminando")
 
 
-my_person = Person("Brais", "Moure")
+my_person = Person("jose", "orellana")
 print(my_person.full_name)
 print(my_person.get_name())
 my_person.walk()
 
-my_other_person = Person("Brais", "Moure", "MoureDev")
+my_other_person = Person("jose", "orellana", "pepito")
 print(my_other_person.full_name)
 my_other_person.walk()
 my_other_person.full_name = "Héctor de León (El loco de los perros)"
@@ -39,3 +38,4 @@ print(my_other_person.full_name)
 
 my_other_person.full_name = 666
 print(my_other_person.full_name)
+
