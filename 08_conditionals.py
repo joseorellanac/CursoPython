@@ -1,4 +1,3 @@
-# Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=21442
 
 ### Conditionals ###
 
@@ -34,3 +33,4 @@ if not my_string:
 
 if my_string == "Mi cadena de textoooooo":
     print("Estas cadenas de texto coinciden")
+
